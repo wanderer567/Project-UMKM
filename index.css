@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #dadadc;
+  color: #2d2d2d;
+}
+
+  .navbar {
+            background-color: #d6e4ff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+.main-header h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+
+.nav-links a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+
+
+.carousel-inner img {
+  border-radius: 20px;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 5px rgba(51, 102, 255, 0.1);
+  border-radius: 20px;
+}
+
+.card-title {
+  color: #000000;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card .btn {
+  background-color: #e2d5db;
+  border: none;
+  color: white;
+}
+
+.card .btn:hover {
+  background-color: #e3d9df;
+}
+
+footer.footer {
+  background-color: #f4e3fa;
+  color: white;
+  margin-top: 60px;
+}
+
+footer.footer p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+
+  .nav-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin-top: 8px;
+  }
+} .logo h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2d2d2d; /* biar kontras sama background */
+}
+
+.welcome h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+
+.nav-left {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.cart-icon a {
+  color: #2d2d2d;
+  transition: 0.3s;
+}
+
+.cart-icon a:hover {
+  color: #000000;
+}
+
